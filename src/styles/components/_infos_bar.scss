@@ -21,6 +21,14 @@
         }
     }
 
+    
+
+    @media (max-width: 1024px){
+        &__infos{
+            gap: 16px;
+        }
+    }
+
     @media (max-width:640px){
         display:block;
 
@@ -30,12 +38,6 @@
             &__item{
                 margin-bottom: 24px;
             }
-        }
-    }
-
-    @media (max-width: 1024px){
-        &__infos{
-            gap: 16px;
         }
     }
 }
